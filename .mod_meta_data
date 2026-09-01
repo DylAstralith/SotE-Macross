@@ -1,0 +1,11 @@
+{
+    "compatibility_version": 2,
+    "display_name": "Macross Sins of the Protoculture",
+    "display_version": "0.0.0",
+    "short_description": "",
+    "long_description": "",
+    "logos": {
+        "small_logo": "macross_small.png",
+        "large_logo": "macross_large.png"
+    }
+}

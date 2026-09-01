@@ -1,0 +1,193 @@
+{
+    "races": [
+        {
+            "name": "spacy",
+            "localized_name": "player_race.spacy",
+            "portraits": [
+                "trader_1",
+				"trader_2"
+            ],
+            "icons": [
+                "trader_1",
+                "trader_2"
+            ],            
+            "music": 
+            {
+                "in_game_music_pools": 
+                {
+                    "front_end": 
+		            {
+                        "first_music_track_index": 0,
+                        "exhaustive_shuffle": true,
+                        "music_tracks": [
+                            {
+                                "sound": "macross_title_track",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "loading": 
+		            {
+                        "music_tracks": [
+                            {
+                                "sound": "macross_loading",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "ambient": 
+		            {
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_ambient_01",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "early_game_neutral": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_ambient_02",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "early_game_winning": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_ambient_03",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "early_game_losing": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_ambient_losing_01",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "mid_game_neutral": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_ambient_03",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "mid_game_winning": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "first_music_track_index": 0,
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_ambient_late_01",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "mid_game_losing": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "first_music_track_index": 0,
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_ambient_losing_01",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "late_game_neutral": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "first_music_track_index": 0,
+                        "music_tracks": [                          
+                            {
+                                "sound": "spacy_ambient_late_01",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "late_game_winning": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "first_music_track_index": 0,
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_battle_winning_01",
+                                "weight": 3
+                            }
+                        ]
+                    },
+                    "late_game_losing": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "first_music_track_index": 0,
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_ambient_late_01",
+                                "weight": 3
+                            }
+                        ]
+                    },
+                    "battle_neutral": 
+                    {
+                        "music_tracks": [
+                            {
+                                "sound": "shared_battle_dogfight",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "battle_winning": 
+                    {
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_battle_winning_01",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "battle_losing": 
+                    {
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_gamelost_01",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "game_won": 
+                    {
+                        "first_music_track_index": 0,
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_gamewin_01",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "game_lost": 
+                    {
+                        "first_music_track_index": 0,
+                        "music_tracks": [
+                            {
+                                "sound": "spacy_gamelost_01",
+                                "weight": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
