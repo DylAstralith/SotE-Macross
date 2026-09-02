@@ -451,6 +451,7 @@
         "trader_very_large_torpedo_ability",
         "vasari_charged_phase_missile_large",
         
-        "spacy_sdf_capital_ship"
+        "spacy_sdf_capital_ship",
+        "spacy_vfmass_interceptor_strikecraft"
     ]
 }

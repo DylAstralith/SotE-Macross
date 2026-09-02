@@ -449,13 +449,14 @@
                     "particle_effect": "trader_point_defense_autocannon_weapon_projectile_travel"
                 }
             },
+
             {
-                "alias_name": "trader_colony_shuttle",
+                "alias_name": "spacy_sdf_capital_ship_macross_cannon_sound",
                 "alias_binding":
                 {
-                    "particle_effect": "trader_colony_shuttle",
+                    "beam": "tech_battle_capital_ship_experimental_beam",
                     "sounds": [
-                        "ability_activate_tech_shuttlelaunch"]
+                        "macross_cannon"]
                 }
             }]
         },

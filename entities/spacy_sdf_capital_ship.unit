@@ -1021,16 +1021,16 @@
     "abilities": [
     {
         "abilities": [
-            "trader_colony_capital_ship_colonize",
             "trader_colony_capital_ship_inspiring_broadcast",
             "trader_colony_capital_ship_mobile_trade_port",
-            "trader_colony_capital_ship_armistice"
+            "trader_colony_capital_ship_armistice",
+
+            "spacy_sdf_capital_ship_macross_cannon"
         ]
     }],
     "ship_roles": [
         "attack_ship"
     ],
-    "colonize_ability": "trader_colony_capital_ship_colonize",
     "skin_groups": [
     {
         "skins": [

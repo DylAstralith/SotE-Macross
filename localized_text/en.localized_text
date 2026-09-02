@@ -9700,5 +9700,8 @@
   "player_race_description.spacy": "The U.N. Spacy! (WIP)",
   
   "spacy_sdf_capital_ship_description": "Sdf 1 desc (WIP)",
-  "spacy_sdf_capital_ship_name": "SDF-1 Macross"
+  "spacy_sdf_capital_ship_name": "SDF-1 Macross",
+
+  "spacy_sdf_capital_ship_macross_cannon_ability_name": "Macross Cannon",
+  "spacy_sdf_capital_ship_macross_cannon_ability_description": "Macross Cannon desc (WIP)",
 }
