@@ -31,7 +31,7 @@
                 "mesh_alias_name": "guassturret_barrel_0",
                 "mesh_definition":
                 {
-                    "mesh": "",
+                    "mesh": "trader_asset_gaussturret_barrel_0",
                     "shader": "ship",
                     "is_shadow_blocker": true
                 }
@@ -40,7 +40,7 @@
                 "mesh_alias_name": "guassturret_mount_0",
                 "mesh_definition":
                 {
-                    "mesh": "",
+                    "mesh": "trader_asset_gaussturret_mount_0",
                     "shader": "ship",
                     "is_shadow_blocker": true
                 }

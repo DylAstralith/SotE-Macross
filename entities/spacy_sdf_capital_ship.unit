@@ -794,13 +794,6 @@
         "skins": [
             "spacy_sdf_capital_ship"]
     }],
-    "child_meshes": [
-    {
-        "mesh_alias_name": "dlc2_component_turret_bases_large_gauss",
-        "mesh_point": "bomb",
-        "is_weapon_effects_destination": true,
-        "required_unit_item": "spacy_tomahawk"
-    }],
     "action_effect_size": "medium_unit",
     "can_join_fleet": true
 }
