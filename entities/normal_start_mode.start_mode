@@ -1,0 +1,72 @@
+{
+    "version": 0,
+    "name": "normal",
+    "display_name": "start_mode.normal.name",
+    "description": "start_mode.normal.description",
+    "faction_configurations": [
+    {
+        "player_definition_id": "spacy",
+        "starting_assets":
+        {
+            "credits": 6500.0,
+            "metal": 1650.0,
+            "crystal": 850.0
+        },
+        "home_planet":
+        {
+            "starting_units_in_gravity_well":
+            {},
+            "starting_units_in_formations": [
+            {
+                "required_units": [
+                {
+                    "unit": "trader_capital_ship_factory_structure",
+                    "count": [1, 1]
+                },
+                {
+                    "unit": "trader_retrofit_bay_structure",
+                    "count": [1, 1]
+                },
+                {
+                    "unit": "trader_frigate_factory_structure",
+                    "count": [1, 1]
+                },
+                {
+                    "unit": "trader_scout_corvette",
+                    "count": [2, 2]
+                }]
+            }],
+            "home_planet_track_levels":
+            {
+                "logistics": 2,
+                "defense": 1,
+                "commerce": 3,
+                "mining": 1,
+                "research": 0,
+                "focus": 0,
+                "corruption": 0,
+                "industry": 0,
+                "influence": 0,
+                "culture": 0,
+                "population": 0,
+                "surveying": 0
+            },
+            "starting_units_in_hyperspace":
+            {},
+            "home_planet_starting_population": [500, 500]
+        },
+        "starting_research":
+        {
+            "starting_research_subjects": []
+        },
+        "starting_player_inventory_items": [],
+        "additional_starting_planets":
+        {
+            "count": 0,
+            "allowed_planet_types": [],
+            "max_jumps": 0,
+            "include_star_phase_lanes": false,
+            "include_wormhole_phase_lanes": false
+        }
+    }]
+}

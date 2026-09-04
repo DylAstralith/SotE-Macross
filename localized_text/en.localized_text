@@ -9704,4 +9704,7 @@
 
   "spacy_sdf_capital_ship_macross_cannon_ability_name": "Macross Cannon",
   "spacy_sdf_capital_ship_macross_cannon_ability_description": "Macross Cannon desc (WIP)",
+
+  "spacy_tomahawk_unit_item_name": "Destroid Tomahawk",
+  "spacy_tomahawk_unit_item_description": "Destroid Tomahawk desc (WIP)"
 }

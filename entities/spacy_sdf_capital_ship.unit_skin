@@ -6,8 +6,8 @@
     },
     "skin_stages": [
     {
-        "is_main_view_icon_visible_camera_distance": 22391.391875,
-        "min_camera_distance": 764.70139,
+        "is_main_view_icon_visible_camera_distance": 22702.051225,
+        "min_camera_distance": 807.615518,
         "gui":
         {
             "hud_icon": "spacy_sdf_capital_ship_hud_icon",
@@ -20,13 +20,31 @@
         },
         "unit_mesh":
         {
-            "mesh": "trader_colony_capital_ship",
+            "mesh": "spacy_sdf_capital_ship",
             "shader": "ship",
             "is_shadow_blocker": true
         },
         "child_mesh_alias_bindings":
         {
             "map": [
+            {
+                "mesh_alias_name": "guassturret_barrel_0",
+                "mesh_definition":
+                {
+                    "mesh": "",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }
+            },
+            {
+                "mesh_alias_name": "guassturret_mount_0",
+                "mesh_definition":
+                {
+                    "mesh": "",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }
+            },
             {
                 "mesh_alias_name": "medturret_barrel_0",
                 "mesh_definition":
@@ -41,24 +59,6 @@
                 "mesh_definition":
                 {
                     "mesh": "trader_asset_medturret_mount_0",
-                    "shader": "ship",
-                    "is_shadow_blocker": true
-                }
-            },
-            {
-                "mesh_alias_name": "pdturret_barrel_0",
-                "mesh_definition":
-                {
-                    "mesh": "trader_asset_pdturret_barrel_0",
-                    "shader": "ship",
-                    "is_shadow_blocker": true
-                }
-            },
-            {
-                "mesh_alias_name": "pdturret_mount_0",
-                "mesh_definition":
-                {
-                    "mesh": "trader_asset_pdturret_mount_0",
                     "shader": "ship",
                     "is_shadow_blocker": true
                 }
@@ -80,14 +80,41 @@
                     "shader": "ship",
                     "is_shadow_blocker": true
                 }
+            },
+            {
+                "mesh_alias_name": "dlc2_component_turret_bases_large_gauss",
+                "mesh_definition":
+                {
+                    "mesh": "dlc2_component_turret_bases_large",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }
+            },
+            {
+                "mesh_alias_name": "dlc2_trader_asset_gaussturret_barrel_0",
+                "mesh_definition":
+                {
+                    "mesh": "dlc2_trader_asset_gaussturret_barrel_0",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }
+            },
+            {
+                "mesh_alias_name": "dlc2_trader_asset_gaussturret_mount_0",
+                "mesh_definition":
+                {
+                    "mesh": "dlc2_trader_asset_gaussturret_mount_0",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }
             }]
         },
         "main_view_icon":
         {
             "group": "capital_ship",
-            "icon": "trader_colony_capital_ship_main_view_icon",
-            "selected_icon": "trader_colony_capital_ship_main_view_icon_selected",
-            "sub_selected_icon": "trader_colony_capital_ship_main_view_icon_sub_selected"
+            "icon": "trader_battle_capital_ship_main_view_icon",
+            "selected_icon": "trader_battle_capital_ship_main_view_icon_selected",
+            "sub_selected_icon": "trader_battle_capital_ship_main_view_icon_sub_selected"
         },
         "effects":
         {
@@ -116,61 +143,61 @@
                 "max_damage_effect_count": 20,
                 "damage_effects": [
                 {
-                    "max_count": 6,
-                    "weight": 15.0,
+                    "max_count": 3,
+                    "weight": 8.0,
                     "hull_percentage_threshold": 0.99,
                     "particle_effect": "damage_air_decompression",
                     "sound": "ambient_loop_airdecompression"
                 },
                 {
                     "max_count": 2,
-                    "weight": 5.0,
+                    "weight": 4.0,
                     "hull_percentage_threshold": 0.99,
                     "particle_effect": "damage_smoke_2"
                 },
                 {
                     "max_count": 2,
-                    "weight": 5.0,
+                    "weight": 4.0,
                     "hull_percentage_threshold": 0.75,
                     "particle_effect": "damage_smoke_3"
                 },
                 {
-                    "max_count": 6,
-                    "weight": 20.0,
+                    "max_count": 4,
+                    "weight": 15.0,
                     "hull_percentage_threshold": 0.4,
                     "particle_effect": "tec_damage_escaping_gas",
                     "sound": "ambient_loop_tech_escaping_gas"
                 },
                 {
                     "max_count": 2,
-                    "weight": 5.0,
+                    "weight": 10.0,
                     "hull_percentage_threshold": 0.75,
                     "particle_effect": "damage_electricity",
                     "sound": "ambient_loop_electrical_damage"
                 },
                 {
                     "max_count": 2,
-                    "weight": 5.0,
+                    "weight": 10.0,
                     "hull_percentage_threshold": 0.5,
                     "particle_effect": "damage_electricity_2",
                     "sound": "ambient_loop_electrical_damage_01"
                 },
                 {
-                    "max_count": 6,
-                    "weight": 10.0,
+                    "max_count": 5,
+                    "weight": 9.0,
                     "hull_percentage_threshold": 0.99,
                     "particle_effect": "tec_damage_embers"
                 },
                 {
                     "max_count": 7,
-                    "weight": 30.0,
+                    "weight": 25.0,
                     "hull_percentage_threshold": 0.35,
                     "particle_effect": "damage_fire",
                     "sound": "ambient_loop_firedamage"
                 },
                 {
-                    "max_count": 2,
-                    "weight": 5.0,
+                    "max_count": 3,
+                    "weight": 15.0,
                     "hull_percentage_threshold": 0.25,
                     "particle_effect": "damage_fire_pillar",
                     "sound": "ambient_loop_firepillar_damage"
@@ -184,27 +211,150 @@
             }],
             "level_up_effect": "capitalship_levelup",
             "level_up_sound": "capitalship_levelup",
-            "shield_effect": "trader_colony_capital_ship",
+            "shield_effect": "trader_battle_capital_ship",
             "effect_alias_bindings": [
             {
-                "alias_name": "buffionblast_large_unit",
+                "alias_name": "trader_battle_capital_ship_adaptive_force_field_buff_start",
                 "alias_binding":
                 {
-                    "particle_effect": "placeholder_effect"
+                    "particle_effect": "buff_trader_adaptive_forcefield_start",
+                    "sounds": [
+                        "ability_activate_tech_adaptive_forcefield"]
                 }
             },
             {
-                "alias_name": "buffionblast_medium_unit",
+                "alias_name": "trader_ship_adaptive_force_field",
                 "alias_binding":
                 {
-                    "particle_effect": "placeholder_effect"
+                    "particle_effect": "buff_trader_adaptive_forcefield"
                 }
             },
             {
-                "alias_name": "buffionblast_small_unit",
+                "alias_name": "trader_battle_capital_ship_experimental_beam_beam",
                 "alias_binding":
                 {
-                    "particle_effect": "placeholder_effect"
+                    "beam": "tech_battle_capital_ship_experimental_beam",
+                    "sounds": [
+                        "macross_cannon_fire"
+                    ]
+                }
+            },
+            {
+                "alias_name": "trader_battle_capital_ship_experimental_beam_charge",
+                "alias_binding":
+                {
+                    "particle_effect": "tech_capital_experimental_beam_muzzleflash",
+                    "sounds": [
+                        "macross_cannon_charge"
+                    ]
+                }
+            },
+            {
+                "alias_name": "trader_battle_capital_ship_experimental_beam_hit_hull",
+                "alias_binding":
+                {
+                    "particle_effect": "trader_experimental_beam_impact",
+                    "sounds": [
+                        "weapon_impact_energy_heavy_hithull",
+                        "weapon_impact_energy_heavy_hithull_01",
+                        "weapon_impact_energy_heavy_hithull_02"
+                    ]
+                }
+            },
+            {
+                "alias_name": "trader_battle_capital_ship_experimental_beam_hit_shield",
+                "alias_binding":
+                {
+                    "particle_effect": "trader_experimental_beam_impact",
+                    "sounds": [
+                        "weapon_impact_generic_heavy_hitshields",
+                        "weapon_impact_generic_heavy_hitshields_01",
+                        "weapon_impact_generic_heavy_hitshields_02",
+                        "weapon_impact_generic_heavy_hitshields_03"
+                    ]
+                }
+            },
+            {
+                "alias_name": "trader_battle_capital_ship_experimental_beam_muzzle",
+                "alias_binding":
+                {
+                    "particle_effect": "tech_capital_experimental_beam_muzzleflash"
+                }
+            },
+            {
+                "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_large",
+                "alias_binding":
+                {
+                    "particle_effect": "inspiring_broadcast_target_capital"
+                }
+            },
+            {
+                "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_medium",
+                "alias_binding":
+                {
+                    "particle_effect": "inspiring_broadcast_target_cruiser"
+                }
+            },
+            {
+                "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_small",
+                "alias_binding":
+                {
+                    "particle_effect": "inspiring_broadcast_target_corvette"
+                }
+            },
+            {
+                "alias_name": "trader_colony_capital_ship_inspiring_broadcast_on_spawner",
+                "alias_binding":
+                {
+                    "particle_effect": "inspiring_broadcast",
+                    "sounds": [
+                        "ability_inspiring_broadcast_loop"]
+                }
+            },
+            {
+                "alias_name": "trader_battle_capital_ship_heavy_gauss_weapon_hit_hull",
+                "alias_binding":
+                {
+                    "particle_effect": "tech_capital_gauss_cannon_impact",
+                    "sounds": [
+                        "weapon_impact_physical_heavy_hithull",
+                        "weapon_impact_physical_heavy_hithull_01",
+                        "weapon_impact_physical_heavy_hithull_02",
+                        "weapon_impact_physical_heavy_hithull_03"
+                    ]
+                }
+            },
+            {
+                "alias_name": "trader_battle_capital_ship_heavy_gauss_weapon_hit_shield",
+                "alias_binding":
+                {
+                    "particle_effect": "tech_capital_gauss_cannon_impact",
+                    "sounds": [
+                        "weapon_impact_generic_heavy_hitshields",
+                        "weapon_impact_generic_heavy_hitshields_01",
+                        "weapon_impact_generic_heavy_hitshields_02",
+                        "weapon_impact_generic_heavy_hitshields_03"
+                    ]
+                }
+            },
+            {
+                "alias_name": "trader_battle_capital_ship_heavy_gauss_weapon_muzzle",
+                "alias_binding":
+                {
+                    "particle_effect": "tech_capital_gauss_cannon_muzzleflash",
+                    "sounds": [
+                        "weapon_muzzle_tech_gausscannon",
+                        "weapon_muzzle_tech_gausscannon_01",
+                        "weapon_muzzle_tech_gausscannon_02",
+                        "weapon_muzzle_tech_gausscannon_03"
+                    ]
+                }
+            },
+            {
+                "alias_name": "trader_battle_capital_ship_heavy_gauss_weapon_projectile_travel",
+                "alias_binding":
+                {
+                    "particle_effect": "tech_capital_gauss_cannon_travel"
                 }
             },
             {
@@ -255,43 +405,7 @@
                 }
             },
             {
-                "alias_name": "trader_colony_capital_ship_armistice_buff_on_spawner",
-                "alias_binding":
-                {
-                    "particle_effect": "buff_trader_colony_capital_ship_armistice_self",
-                    "sounds": [
-                        "ability_activate_tech_armistice"]
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_armistice_buff_on_target_large",
-                "alias_binding":
-                {
-                    "particle_effect": "buff_trader_colony_capital_ship_armistice_target_large",
-                    "sounds": [
-                        "ability_activate_tech_armistice"]
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_armistice_buff_on_target_medium",
-                "alias_binding":
-                {
-                    "particle_effect": "buff_trader_colony_capital_ship_armistice_target_medium",
-                    "sounds": [
-                        "ability_activate_tech_armistice"]
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_armistice_buff_on_target_small",
-                "alias_binding":
-                {
-                    "particle_effect": "buff_trader_colony_capital_ship_armistice_target_small",
-                    "sounds": [
-                        "ability_activate_tech_armistice"]
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_autocannon_weapon_hit_hull",
+                "alias_name": "trader_battle_capital_ship_medium_autocannon_weapon_hit_hull",
                 "alias_binding":
                 {
                     "particle_effect": "medium_autocannon_impact",
@@ -305,7 +419,7 @@
                 }
             },
             {
-                "alias_name": "trader_colony_capital_ship_autocannon_weapon_hit_shield",
+                "alias_name": "trader_battle_capital_ship_medium_autocannon_weapon_hit_shield",
                 "alias_binding":
                 {
                     "particle_effect": "medium_autocannon_impact",
@@ -318,7 +432,7 @@
                 }
             },
             {
-                "alias_name": "trader_colony_capital_ship_autocannon_weapon_muzzle",
+                "alias_name": "trader_battle_capital_ship_medium_autocannon_weapon_muzzle",
                 "alias_binding":
                 {
                     "particle_effect": "trader_capital_medium_autocannon_weapon_muzzle",
@@ -333,44 +447,14 @@
                 }
             },
             {
-                "alias_name": "trader_colony_capital_ship_autocannon_weapon_projectile_travel",
+                "alias_name": "trader_battle_capital_ship_medium_autocannon_weapon_projectile_travel",
                 "alias_binding":
                 {
                     "particle_effect": "trader_medium_autocannon_weapon_projectile_travel"
                 }
             },
             {
-                "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_large",
-                "alias_binding":
-                {
-                    "particle_effect": "inspiring_broadcast_target_capital"
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_medium",
-                "alias_binding":
-                {
-                    "particle_effect": "inspiring_broadcast_target_cruiser"
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_small",
-                "alias_binding":
-                {
-                    "particle_effect": "inspiring_broadcast_target_corvette"
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_inspiring_broadcast_on_spawner",
-                "alias_binding":
-                {
-                    "particle_effect": "inspiring_broadcast",
-                    "sounds": [
-                        "ability_inspiring_broadcast_loop"]
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_hull",
+                "alias_name": "trader_battle_capital_ship_planet_bombing_weapon_hit_hull",
                 "alias_binding":
                 {
                     "particle_effect": "nuke",
@@ -379,7 +463,7 @@
                 }
             },
             {
-                "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_shield",
+                "alias_name": "trader_battle_capital_ship_planet_bombing_weapon_hit_shield",
                 "alias_binding":
                 {
                     "particle_effect": "nuke",
@@ -388,75 +472,19 @@
                 }
             },
             {
-                "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_muzzle",
+                "alias_name": "trader_battle_capital_ship_planet_bombing_weapon_muzzle",
                 "alias_binding":
                 {
-                    "particle_effect": "weapon_techcapitalplanetbombing_muzzle",
+                    "particle_effect": "tec_battle_capital_bombing_muzzle",
                     "sounds": [
                         "weapon_muzzle_tech_planetbomb"]
                 }
             },
             {
-                "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_projectile_travel",
+                "alias_name": "trader_battle_capital_ship_planet_bombing_weapon_projectile_travel",
                 "alias_binding":
                 {
                     "particle_effect": "weapon_techfrigateplanetbombing_travel"
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_point_defense_autocannon_weapon_hit_hull",
-                "alias_binding":
-                {
-                    "particle_effect": "pd_autocannon_impact",
-                    "sounds": [
-                        "weapon_impact_physical_pointdefense_hithull",
-                        "weapon_impact_physical_pointdefense_hithull_01",
-                        "weapon_impact_physical_pointdefense_hithull_02",
-                        "weapon_impact_physical_pointdefense_hithull_03"
-                    ]
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_point_defense_autocannon_weapon_hit_shield",
-                "alias_binding":
-                {
-                    "particle_effect": "pd_autocannon_impact",
-                    "sounds": [
-                        "weapon_impact_generic_pointdefense_hitshields",
-                        "weapon_impact_generic_pointdefense_hitshields_01",
-                        "weapon_impact_generic_pointdefense_hitshields_02",
-                        "weapon_impact_generic_pointdefense_hitshields_03"
-                    ]
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_point_defense_autocannon_weapon_muzzle",
-                "alias_binding":
-                {
-                    "particle_effect": "trader_capital_point_defense_autocannon_weapon_muzzle",
-                    "sounds": [
-                        "weapon_muzzle_tech_pointdefense_autocannon",
-                        "weapon_muzzle_tech_pointdefense_autocannon_01",
-                        "weapon_muzzle_tech_pointdefense_autocannon_02",
-                        "weapon_muzzle_tech_pointdefense_autocannon_03"
-                    ]
-                }
-            },
-            {
-                "alias_name": "trader_colony_capital_ship_point_defense_autocannon_weapon_projectile_travel",
-                "alias_binding":
-                {
-                    "particle_effect": "trader_point_defense_autocannon_weapon_projectile_travel"
-                }
-            },
-
-            {
-                "alias_name": "spacy_sdf_capital_ship_macross_cannon_sound",
-                "alias_binding":
-                {
-                    "beam": "tech_battle_capital_ship_experimental_beam",
-                    "sounds": [
-                        "macross_cannon"]
                 }
             }]
         },
@@ -472,131 +500,131 @@
                 "spawned":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_spawned_neutral_0"]
+                        "trader_battle_capital_ship_spawned_neutral_0"]
                 },
                 "selected":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_selected_neutral_0",
-                        "trader_colony_capital_ship_selected_neutral_1",
-                        "trader_colony_capital_ship_selected_neutral_2"
+                        "trader_battle_capital_ship_selected_neutral_0",
+                        "trader_battle_capital_ship_selected_neutral_1",
+                        "trader_battle_capital_ship_selected_neutral_2"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_selected_scared_0",
-                        "trader_colony_capital_ship_selected_scared_1",
-                        "trader_colony_capital_ship_selected_scared_2"
+                        "trader_battle_capital_ship_selected_scared_0",
+                        "trader_battle_capital_ship_selected_scared_1",
+                        "trader_battle_capital_ship_selected_scared_2"
                     ]
                 },
                 "order_issued":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_order_issued_neutral_0",
-                        "trader_colony_capital_ship_order_issued_neutral_1",
-                        "trader_colony_capital_ship_order_issued_neutral_2"
+                        "trader_battle_capital_ship_order_issued_neutral_0",
+                        "trader_battle_capital_ship_order_issued_neutral_1",
+                        "trader_battle_capital_ship_order_issued_neutral_2"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_order_issued_scared_0",
-                        "trader_colony_capital_ship_order_issued_scared_1",
-                        "trader_colony_capital_ship_order_issued_scared_2"
+                        "trader_battle_capital_ship_order_issued_scared_1",
+                        "trader_battle_capital_ship_order_issued_scared_2",
+                        "trader_battle_capital_ship_order_issued_scared_0_placeholder"
                     ]
                 },
                 "attack_order_issued":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_attack_order_issued_neutral_0",
-                        "trader_colony_capital_ship_attack_order_issued_neutral_1",
-                        "trader_colony_capital_ship_attack_order_issued_neutral_2",
-                        "trader_colony_capital_ship_attack_order_issued_neutral_3_placeholder"
+                        "trader_battle_capital_ship_attack_order_issued_neutral_0",
+                        "trader_battle_capital_ship_attack_order_issued_neutral_1",
+                        "trader_battle_capital_ship_attack_order_issued_neutral_2",
+                        "trader_battle_capital_ship_attack_order_issued_neutral_3"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_attack_order_issued_scared_0",
-                        "trader_colony_capital_ship_attack_order_issued_scared_1",
-                        "trader_colony_capital_ship_attack_order_issued_scared_2",
-                        "trader_colony_capital_ship_attack_order_issued_scared_3_placeholder"
+                        "trader_battle_capital_ship_attack_order_issued_scared_0",
+                        "trader_battle_capital_ship_attack_order_issued_scared_1",
+                        "trader_battle_capital_ship_attack_order_issued_scared_2",
+                        "trader_battle_capital_ship_attack_order_issued_scared_3"
                     ],
                     "smug": [
-                        "trader_colony_capital_ship_attack_order_issued_smug_0",
-                        "trader_colony_capital_ship_attack_order_issued_smug_1",
-                        "trader_colony_capital_ship_attack_order_issued_smug_2",
-                        "trader_colony_capital_ship_attack_order_issued_smug_3_placeholder"
+                        "trader_battle_capital_ship_attack_order_issued_smug_0",
+                        "trader_battle_capital_ship_attack_order_issued_smug_1",
+                        "trader_battle_capital_ship_attack_order_issued_smug_2",
+                        "trader_battle_capital_ship_attack_order_issued_smug_3_placeholder"
                     ]
                 },
                 "retreat":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_retreat_neutral_0"
+                        "trader_battle_capital_ship_retreat_neutral_0"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_retreat_scared_0"]
+                        "trader_battle_capital_ship_retreat_scared_0"]
                 },
                 "hyperspace_charge_started":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_hyperspace_charge_started_neutral_0"
+                        "trader_battle_capital_ship_hyperspace_charge_started_neutral_0"
                     ]
                 },
                 "cannot_hyperspace":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_cannot_hyperspace_neutral_0"
+                        "trader_battle_capital_ship_cannot_hyperspace_neutral_0"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_cannot_hyperspace_scared_0"]
+                        "trader_battle_capital_ship_cannot_hyperspace_scared_0"]
                 },
                 "shields_down":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_shields_down_neutral_0"
+                        "trader_battle_capital_ship_shields_down_neutral_0"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_shields_down_scared_0"]
+                        "trader_battle_capital_ship_shields_down_scared_0"]
                 },
                 "armor_down":
                 {
                     "scared": [
-                        "trader_colony_capital_ship_armor_down_scared_0"]
+                        "trader_battle_capital_ship_armor_down_scared_0"]
                 },
                 "became_crippled":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_became_crippled_neutral_0"
+                        "trader_battle_capital_ship_became_crippled_neutral_0"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_became_crippled_scared_0"]
+                        "trader_battle_capital_ship_became_crippled_scared_0"]
                 },
                 "destroyed":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_destroyed_neutral_0"
+                        "trader_battle_capital_ship_destroyed_neutral_0"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_destroyed_scared_0"]
+                        "trader_battle_capital_ship_destroyed_scared_0"]
                 },
                 "ship_component_finished_building":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_ship_component_finished_building_neutral_0"
+                        "trader_battle_capital_ship_ship_component_finished_building_neutral_0"
                     ]
                 },
                 "ability_cooldown_is_not_completed":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_ability_cooldown_is_not_completed_neutral_0"
+                        "trader_battle_capital_ship_ability_cooldown_is_not_completed_neutral_0"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_ability_cooldown_is_not_completed_scared_0"
+                        "trader_battle_capital_ship_ability_cooldown_is_not_completed_scared_0"
                     ]
                 },
                 "insufficient_antimatter":
                 {
                     "neutral": [
-                        "trader_colony_capital_ship_insufficient_antimatter_neutral_0"
+                        "trader_battle_capital_ship_insufficient_antimatter_neutral_0"
                     ],
                     "scared": [
-                        "trader_colony_capital_ship_insufficient_antimatter_scared_0"]
+                        "trader_battle_capital_ship_insufficient_antimatter_scared_0"]
                 }
             }
         },
-        "death_sequence_group": "capitalshipcolony"
+        "death_sequence_group": "capitalship0"
     }]
 }
