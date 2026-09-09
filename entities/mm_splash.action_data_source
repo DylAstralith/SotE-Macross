@@ -1,0 +1,35 @@
+{
+    "version": 0,
+    "target_filters": [
+        {
+            "target_filter_id": "mm_splash_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "strikecraft"
+                ],
+                "ownerships": [
+                    "enemy"
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "mm_splash_radius_value",
+            "action_value": {
+                "values": [
+                    750
+                ]
+            }
+        },
+        {
+            "action_value_id": "mm_splash_damage_value",
+            "action_value": {
+                "transform_type": "per_total_resolved_damage_dealt",
+                "values": [
+                    0.25
+                ]
+            }
+        }
+    ]
+}

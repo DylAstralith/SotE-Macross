@@ -1,0 +1,15 @@
+{
+    "base_color_texture": "v1fa_engine_material_clr",
+    "normal_texture": "v1fa_engine_material_nrm",
+    "mask_texture": "v1fa_engine_material_msk",
+    "occlusion_roughness_metallic_texture": "v1fa_engine_material_orm",
+    "emissive_hue_strength": 1,
+    "base_color_factor": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "roughness_factor": 1,
+    "metallic_factor": 1
+}

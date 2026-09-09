@@ -1,0 +1,15 @@
+{
+    "base_color_texture": "vf1a_gunpod_material_clr",
+    "normal_texture": "vf1a_gunpod_material_nrm",
+    "mask_texture": "vf1a_gunpod_material_msk",
+    "occlusion_roughness_metallic_texture": "vf1a_gunpod_material_orm",
+    "emissive_hue_strength": 1,
+    "base_color_factor": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "roughness_factor": 1,
+    "metallic_factor": 1
+}

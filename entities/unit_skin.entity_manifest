@@ -452,6 +452,9 @@
         "vasari_charged_phase_missile_large",
         
         "spacy_sdf_capital_ship",
-        "spacy_vfmass_interceptor_strikecraft"
+        "spacy_vfmass_strikecraft",
+        "spacy_armd_cruiser",
+
+        "mm_torpedo"
     ]
 }

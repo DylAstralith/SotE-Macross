@@ -44,7 +44,7 @@
                 {
                     "operator_type": "play_weapon_effects",
                     "effect_alias_binding": "unit_skin",
-                    "mesh_point": "ability.0",
+                    "mesh_point": "ability",
                     "effects":
                     {
                         "charge_effect": "trader_battle_capital_ship_experimental_beam_charge",

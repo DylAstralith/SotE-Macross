@@ -1,0 +1,376 @@
+[
+        {
+            "weapon": "mm_bank_0",
+            "mesh_point": "turret_muzzle.016",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_1",
+            "mesh_point": "turret_muzzle.017",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_2",
+            "mesh_point": "turret_muzzle.018",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_3",
+            "mesh_point": "turret_muzzle.019",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_4",
+            "mesh_point": "turret_muzzle.020",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_5",
+            "mesh_point": "turret_muzzle.021",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_6",
+            "mesh_point": "turret_muzzle.022",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_7",
+            "mesh_point": "turret_muzzle.023",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_8",
+            "mesh_point": "turret_muzzle.024",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_9",
+            "mesh_point": "turret_muzzle.025",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_10",
+            "mesh_point": "turret_muzzle.026",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_11",
+            "mesh_point": "turret_muzzle.027",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_12",
+            "mesh_point": "turret_muzzle.028",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_13",
+            "mesh_point": "turret_muzzle.029",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_14",
+            "mesh_point": "turret_muzzle.030",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_15",
+            "mesh_point": "turret_muzzle.031",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "mm_bank_16",
+            "mesh_point": "turret_muzzle.032",
+            "weapon_position": [0.0, 0.0, 0.0],
+            "non_turret_muzzle_positions": [
+                [
+                    -45.063137,
+                    12.4161,
+                    -42.932152
+                ]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc": {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        }
+]

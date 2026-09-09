@@ -1,0 +1,30 @@
+{
+    "version": 0,
+    "action_data_source": "mm_splash",
+    "level_source": "fixed_level_0",
+    "passive_actions": {
+        "persistant_buff": "mm_splash_on_launcher"
+    },
+    "gui": {
+        "tooltip_line_groups": [
+            {
+                "lines": [
+                    {
+                        "rendering_type": "single_value",
+                        "label_text": "tooltip.ability.splash_damage",
+                        "value_id": "mm_splash_damage_value",
+                        "value_float_format": "percentage",
+                        "ratio_float_format": "percentage_one_decimal_place_with_sign"
+                    },
+                    {
+                        "rendering_type": "single_value",
+                        "label_text": "tooltip.ability.splash_damage_radius",
+                        "value_id": "mm_splash_radius_value"
+                    }
+                ]
+            }
+        ],
+        "name": "mm_splash_name",
+        "description": "mm_splash_description"
+    }
+}

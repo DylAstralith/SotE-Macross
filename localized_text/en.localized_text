@@ -9706,5 +9706,19 @@
   "spacy_sdf_capital_ship_macross_cannon_ability_description": "Macross Cannon desc (WIP)",
 
   "spacy_tomahawk_unit_item_name": "Destroid Tomahawk",
-  "spacy_tomahawk_unit_item_description": "Destroid Tomahawk desc (WIP)"
+  "spacy_tomahawk_unit_item_description": "Destroid Tomahawk desc (WIP)",
+
+  "weapon_name.light_beam_dual": "Dual Light Beam",
+  "weapon_name.medium_beam_dual": "Dual Medium Beam",
+  "weapon_name.medium_beam_triple": "Triple Medium Beam",
+
+  "spacy_armd_cruiser_name": "ARMD-Class Space Carrier",
+  "spacy_armd_cruiser_description": "ARMD-Class Space Carrier desc (WIP)",
+
+  "weapon_name.mm":  "Micro-Missile Launcher",
+  "mm_splash_name":  "Micro-Missile Fragmentation",
+  "mm_splash_description":  "Micro-missile impacts deal 25% of resolved impact damage to other enemy small crafts within 750 range",
+
+  "spacy_vfmass_strikecraft_name": "VF-1A Mass Strikecraft",
+  "spacy_vfmass_strikecraft_description": "VF-1A Mass Strikecraft desc (WIP)"
 }

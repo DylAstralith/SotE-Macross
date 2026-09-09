@@ -1,0 +1,16 @@
+{
+    "mesh_not_visible_time": 0,
+    "events": [
+        {
+            "attached_to_unit": false,
+            "time": 0,
+            "particle_effects": [
+                "mm_torpedo_impact"
+            ],
+            "sounds": [
+            "mm_explode",
+            "mm_explode2",
+            "mm_explode3"
+        ]
+    }]
+}

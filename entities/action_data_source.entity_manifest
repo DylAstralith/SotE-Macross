@@ -397,6 +397,7 @@
         "vasari_starbase_phase_jamming",
         "advent_starbase_phase_jamming",
 
-        "spacy_sdf_capital_ship_macross_cannon"
+        "spacy_sdf_capital_ship_macross_cannon",
+        "mm_splash"
     ]
 }

@@ -454,26 +454,19 @@
         "trader_carrier_cruiser",
         "trader_antifighter_frigate",
         "trader_antiarmor_frigate",
-        "trader_robotics_cruiser",
-        "trader_long_range_cruiser",
-        "trader_heavy_cruiser",
-        "trader_torpedo_cruiser",
-        "trader_battle_capital_ship",
-        "trader_colony_capital_ship",
-        "trader_support_capital_ship",
-        "trader_carrier_capital_ship",
         "trader_siege_capital_ship",
         "trader_rebel_titan",
         "dlc2_trader_rebel_super_capital_ship",
 
-        "spacy_sdf_capital_ship"
+        "spacy_sdf_capital_ship",
+        "spacy_armd_cruiser"
     ],
     "faction_buildable_units": [
         "trader_rebel_titan",
         "dlc2_trader_rebel_super_capital_ship"
     ],
     "buildable_strikecraft": [
-        "spacy_vfmass_interceptor_strikecraft"
+        "spacy_vfmass_strikecraft"
     ],
     "structure_build_groups": [
     {
@@ -6251,7 +6244,7 @@
         "trader_starbase",
 
         "spacy_sdf_capital_ship",
-        "spacy_vfmass_interceptor_strikecraft"
+        "spacy_vfmass_strikecraft"
     ],
     "theme_picker_skybox": "skybox_cloud_16",
     "factional_victory":

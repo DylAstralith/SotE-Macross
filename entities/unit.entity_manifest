@@ -370,6 +370,11 @@
 
 
         "spacy_sdf_capital_ship",
-        "spacy_vfmass_interceptor_strikecraft"
+        "spacy_vfmass_strikecraft",
+        "spacy_armd_cruiser",
+
+        "mm_torpedo_wide",
+        "mm_torpedo_medium",
+        "mm_torpedo_fast"
     ]
 }

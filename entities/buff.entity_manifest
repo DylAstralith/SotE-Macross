@@ -639,6 +639,8 @@
         "advent_starbase_phase_jamming_on_self",
         "advent_starbase_phase_jamming_on_target",
 
-        "spacy_sdf_capital_ship_macross_cannon_on_self"
+        "spacy_sdf_capital_ship_macross_cannon_on_self",
+        "mm_splash_on_launcher",
+        "mm_splash_on_torpedo"
     ]
 }

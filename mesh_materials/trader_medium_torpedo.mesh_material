@@ -1,0 +1,15 @@
+{
+    "base_color_texture": "trader_medium_torpedo_clr",
+    "normal_texture": "trader_medium_torpedo_nrm",
+    "mask_texture": "trader_medium_torpedo_msk",
+    "occlusion_roughness_metallic_texture": "trader_medium_torpedo_orm",
+    "emissive_hue_strength": 1,
+    "base_color_factor": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "roughness_factor": 1,
+    "metallic_factor": 1
+}

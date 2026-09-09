@@ -1,0 +1,16 @@
+{
+    "texture": "mm_trail",
+    "start_width": 0.6,
+    "middle_width": 1.2,
+    "middle_offset": 1,
+    "max_width_scalar": 1,
+    "segment_duration": 3,
+    "max_trail_length": 2200,
+    "render_with_player_color": false,
+    "basic_constants": {
+        "alpha_ramp_curvature": 1,
+        "alpha_ramp_steepness": 0.3,
+        "alpha_ramp_growth_delay": 1.2,
+        "alpha_ramp_max_alpha_scalar": 1
+    }
+}

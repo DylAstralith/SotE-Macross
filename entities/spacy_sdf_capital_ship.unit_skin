@@ -31,7 +31,7 @@
                 "mesh_alias_name": "guassturret_barrel_0",
                 "mesh_definition":
                 {
-                    "mesh": "trader_asset_gaussturret_barrel_0",
+                    "mesh": "trader_bomber_strikecraft",
                     "shader": "ship",
                     "is_shadow_blocker": true
                 }
@@ -40,7 +40,7 @@
                 "mesh_alias_name": "guassturret_mount_0",
                 "mesh_definition":
                 {
-                    "mesh": "trader_asset_gaussturret_mount_0",
+                    "mesh": "trader_bomber_strikecraft",
                     "shader": "ship",
                     "is_shadow_blocker": true
                 }
@@ -312,49 +312,47 @@
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_heavy_gauss_weapon_hit_hull",
+                "alias_name": "spacy_weapon_medium_beam_beam",
                 "alias_binding":
                 {
-                    "particle_effect": "tech_capital_gauss_cannon_impact",
+                    "beam": "spacy_beam",
                     "sounds": [
-                        "weapon_impact_physical_heavy_hithull",
-                        "weapon_impact_physical_heavy_hithull_01",
-                        "weapon_impact_physical_heavy_hithull_02",
-                        "weapon_impact_physical_heavy_hithull_03"
+                        "spacy_beam",
+                        "spacy_beam2"
                     ]
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_heavy_gauss_weapon_hit_shield",
+                "alias_name": "spacy_weapon_medium_beam_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "tech_capital_gauss_cannon_impact",
+                    "particle_effect": "spacy_beam_impact",
                     "sounds": [
-                        "weapon_impact_generic_heavy_hitshields",
-                        "weapon_impact_generic_heavy_hitshields_01",
-                        "weapon_impact_generic_heavy_hitshields_02",
-                        "weapon_impact_generic_heavy_hitshields_03"
+                        "weapon_impact_generic_medium_hitshields",
+                        "weapon_impact_generic_medium_hitshields_01",
+                        "weapon_impact_generic_medium_hitshields_02",
+                        "weapon_impact_generic_medium_hitshields_03"
                     ]
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_heavy_gauss_weapon_muzzle",
+                "alias_name": "spacy_weapon_medium_beam_hit_shield",
                 "alias_binding":
                 {
-                    "particle_effect": "tech_capital_gauss_cannon_muzzleflash",
+                    "particle_effect": "spacy_beam_impact",
                     "sounds": [
-                        "weapon_muzzle_tech_gausscannon",
-                        "weapon_muzzle_tech_gausscannon_01",
-                        "weapon_muzzle_tech_gausscannon_02",
-                        "weapon_muzzle_tech_gausscannon_03"
+                        "weapon_impact_generic_medium_hitshields",
+                        "weapon_impact_generic_medium_hitshields_01",
+                        "weapon_impact_generic_medium_hitshields_02",
+                        "weapon_impact_generic_medium_hitshields_03"
                     ]
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_heavy_gauss_weapon_projectile_travel",
+                "alias_name": "spacy_weapon_medium_beam_muzzle",
                 "alias_binding":
                 {
-                    "particle_effect": "tech_capital_gauss_cannon_travel"
+                    "particle_effect": "spacy_beam_muzzle"
                 }
             },
             {
@@ -372,57 +370,22 @@
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_light_autocannon_weapon_hit_shield",
+                "alias_name": "spacy_weapon_light_beam_beam",
                 "alias_binding":
                 {
-                    "particle_effect": "light_autocannon_impact",
+                    "beam": "spacy_beam_light",
                     "sounds": [
-                        "weapon_impact_generic_light_hitshields",
-                        "weapon_impact_generic_light_hitshields_01",
-                        "weapon_impact_generic_light_hitshields_02",
-                        "weapon_impact_generic_light_hitshields_03"
+                        "spacy_beam",
+                        "spacy_beam2",
+                        "spacy_beam3"
                     ]
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_light_autocannon_weapon_muzzle",
+                "alias_name": "spacy_weapon_light_beam_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "trader_capital_light_autocannon_weapon_muzzle",
-                    "sounds": [
-                        "weapon_muzzle_tech_light_autocannon",
-                        "weapon_muzzle_tech_light_autocannon_01",
-                        "weapon_muzzle_tech_light_autocannon_02",
-                        "weapon_muzzle_tech_light_autocannon_03"
-                    ]
-                }
-            },
-            {
-                "alias_name": "trader_battle_capital_ship_light_autocannon_weapon_projectile_travel",
-                "alias_binding":
-                {
-                    "particle_effect": "trader_light_autocannon_weapon_projectile_travel"
-                }
-            },
-            {
-                "alias_name": "trader_battle_capital_ship_medium_autocannon_weapon_hit_hull",
-                "alias_binding":
-                {
-                    "particle_effect": "medium_autocannon_impact",
-                    "sounds": [
-                        "weapon_impact_physical_medium_hithull",
-                        "weapon_impact_physical_medium_hithull_01",
-                        "weapon_impact_physical_medium_hithull_02",
-                        "weapon_impact_physical_medium_hithull_03",
-                        "weapon_impact_physical_medium_hithull_04"
-                    ]
-                }
-            },
-            {
-                "alias_name": "trader_battle_capital_ship_medium_autocannon_weapon_hit_shield",
-                "alias_binding":
-                {
-                    "particle_effect": "medium_autocannon_impact",
+                    "particle_effect": "spacy_beam_impact",
                     "sounds": [
                         "weapon_impact_generic_medium_hitshields",
                         "weapon_impact_generic_medium_hitshields_01",
@@ -432,61 +395,48 @@
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_medium_autocannon_weapon_muzzle",
+                "alias_name": "spacy_weapon_light_beam_hit_shield",
                 "alias_binding":
                 {
-                    "particle_effect": "trader_capital_medium_autocannon_weapon_muzzle",
+                    "particle_effect": "spacy_beam_impact",
                     "sounds": [
-                        "weapon_muzzle_tech_medium_autocannon",
-                        "weapon_muzzle_tech_medium_autocannon_01",
-                        "weapon_muzzle_tech_medium_autocannon_02",
-                        "weapon_muzzle_tech_medium_autocannon_03",
-                        "weapon_muzzle_tech_medium_autocannon_04",
-                        "weapon_muzzle_tech_medium_autocannon_05"
+                        "weapon_impact_generic_medium_hitshields",
+                        "weapon_impact_generic_medium_hitshields_01",
+                        "weapon_impact_generic_medium_hitshields_02",
+                        "weapon_impact_generic_medium_hitshields_03"
                     ]
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_medium_autocannon_weapon_projectile_travel",
+                "alias_name": "spacy_weapon_light_beam_muzzle",
                 "alias_binding":
                 {
-                    "particle_effect": "trader_medium_autocannon_weapon_projectile_travel"
+                    "particle_effect": "spacy_beam_muzzle"
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_planet_bombing_weapon_hit_hull",
+                "alias_name": "mm_missile_weapon_muzzle",
                 "alias_binding":
                 {
-                    "particle_effect": "nuke",
+                    "particle_effect": "javelis_torpedo_muzzle",
                     "sounds": [
-                        "weapon_impact_tech_planetbomb"]
+                        "mm_launch"
+                    ]
                 }
             },
             {
-                "alias_name": "trader_battle_capital_ship_planet_bombing_weapon_hit_shield",
+                "alias_name": "mm_missile_weapon_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "nuke",
+                    "particle_effect": "torpedo_missile_hit",
                     "sounds": [
-                        "weapon_impact_tech_planetbomb"]
+                        "mm_explode",
+                        "mm_explode2",
+                        "mm_explode3"
+                    ]
                 }
-            },
-            {
-                "alias_name": "trader_battle_capital_ship_planet_bombing_weapon_muzzle",
-                "alias_binding":
-                {
-                    "particle_effect": "tec_battle_capital_bombing_muzzle",
-                    "sounds": [
-                        "weapon_muzzle_tech_planetbomb"]
-                }
-            },
-            {
-                "alias_name": "trader_battle_capital_ship_planet_bombing_weapon_projectile_travel",
-                "alias_binding":
-                {
-                    "particle_effect": "weapon_techfrigateplanetbombing_travel"
-                }
-            }]
+            }
+        ]
         },
         "sounds":
         {
